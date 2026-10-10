@@ -1,346 +1,346 @@
 .frame {
   background-color: #ffffff;
-  min-height: 680px;
-  min-width: 1080px;
   overflow: hidden;
-  position: relative;
   width: 100%;
+  min-width: 1080px;
+  min-height: 680px;
+  position: relative;
 }
 
 .frame .rectangle {
-  height: 329px;
-  left: 0;
   position: absolute;
   top: 351px;
+  left: 0;
   width: 1080px;
+  height: 329px;
 }
 
 .frame .div {
+  left: calc(50.00% - 647px);
+  width: 1260px;
+  height: 356px;
   background: linear-gradient(
     180deg,
     rgba(104, 191, 253, 1) 0%,
     rgba(255, 255, 255, 1) 35%
   );
-  height: 356px;
-  left: calc(50.00% - 647px);
   position: absolute;
   top: 0;
-  width: 1260px;
 }
 
 .frame .yes {
-  background-color: #ffffff;
-  border: 3px solid;
-  border-color: #51a58a;
-  border-radius: 10px;
-  height: 65px;
-  left: 698px;
-  overflow: hidden;
   position: absolute;
   top: 390px;
+  left: 698px;
   width: 263px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #51a58a;
 }
 
 .frame .rectangle-2 {
-  background-color: #51a58a;
-  height: 65px;
   left: 0;
+  width: 567px;
+  height: 65px;
+  background-color: #51a58a;
   position: absolute;
   top: 0;
-  width: 567px;
 }
 
 .frame .text-wrapper {
-  color: #ffffff;
-  font-family: "Pixelify Sans-Bold", Helvetica;
-  font-size: 24px;
-  font-weight: 700;
-  left: calc(50.00% - 56px);
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
   top: 18px;
+  left: calc(50.00% - 56px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .frame .wont {
-  background-color: #ffffff;
-  border: 3px solid;
-  border-color: #a55151;
-  border-radius: 10px;
-  height: 65px;
-  left: 698px;
-  overflow: hidden;
   position: absolute;
   top: 483px;
+  left: 698px;
   width: 263px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #a55151;
 }
 
 .frame .rectangle-3 {
   background-color: #a55151;
-  height: 65px;
-  left: 0;
   position: absolute;
   top: 0;
+  left: 0;
   width: 567px;
+  height: 65px;
 }
 
 .frame .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Pixelify Sans-Bold", Helvetica;
-  font-size: 24px;
-  font-weight: 700;
-  left: calc(50.00% - 94px);
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
   top: 18px;
+  left: calc(50.00% - 94px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .frame .information {
-  background-color: #ffffff;
-  border: 3px solid;
-  border-color: #5175a5;
-  border-radius: 10px;
-  height: 395px;
-  left: 90px;
-  overflow: hidden;
   position: absolute;
   top: 153px;
+  left: 90px;
   width: 567px;
+  height: 395px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #5175a5;
 }
 
 .frame .rectangle-4 {
   background-color: #5175a5;
-  height: 65px;
-  left: 0;
   position: absolute;
   top: 0;
+  left: 0;
   width: 567px;
+  height: 65px;
 }
 
 .frame .text-wrapper-3 {
-  color: #ffffff;
-  font-family: "Pixelify Sans-Bold", Helvetica;
-  font-size: 24px;
-  font-weight: 700;
-  left: calc(50.00% - 260px);
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
   top: 18px;
+  left: calc(50.00% - 260px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .frame .about {
-  height: 105px;
-  left: calc(50.00% - 242px);
   position: absolute;
   top: 256px;
+  left: calc(50.00% - 242px);
   width: 84px;
+  height: 105px;
 }
 
 .frame .text {
-  color: #000000;
-  font-family: "Afacad-Bold", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
+  position: absolute;
+  top: 78px;
   left: calc(50.00% - 25px);
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 78px;
 }
 
 .frame .union {
-  height: 76px;
-  left: -1px;
   position: absolute;
   top: -4px;
+  left: -1px;
   width: 84px;
+  height: 76px;
 }
 
 .frame .vector {
-  height: 46px;
-  left: 29px;
   position: absolute;
   top: 7px;
+  left: 29px;
   width: 24px;
+  height: 46px;
 }
 
 .frame .contact {
+  position: absolute;
+  top: 256px;
+  left: calc(50.00% + 160px);
+  width: 80px;
+  height: 105px;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  height: 105px;
-  left: calc(50.00% + 160px);
-  position: absolute;
-  top: 256px;
-  width: 80px;
 }
 
 .frame .img {
-  height: 76px;
   margin-left: -1px;
-  margin-top: -4px;
   width: 80px;
+  height: 76px;
+  margin-top: -4px;
 }
 
 .frame .text-2 {
+  margin-left: -3px;
+  height: 27px;
+  width: 63px;
   align-self: center;
-  color: #000000;
   font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
-  height: 27px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: -3px;
-  text-align: center;
-  width: 63px;
 }
 
 .frame .my {
+  position: absolute;
+  top: 258px;
+  left: calc(50.00% - 108px);
+  width: 89px;
+  height: 103px;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  height: 103px;
-  left: calc(50.00% - 108px);
-  position: absolute;
-  top: 258px;
-  width: 89px;
 }
 
 .frame .vector-2 {
-  height: 74px;
   margin-left: -1px;
-  margin-top: -4px;
   width: 89.14px;
+  height: 74px;
+  margin-top: -4px;
 }
 
 .frame .text-3 {
+  margin-left: -1px;
+  height: 27px;
+  width: 70px;
   align-self: center;
-  color: #000000;
   font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
-  height: 27px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: -1px;
-  text-align: center;
-  width: 70px;
 }
 
 .frame .faq {
+  position: absolute;
+  top: 257px;
+  left: calc(50.00% + 30px);
+  width: 82px;
+  height: 104px;
   display: flex;
   flex-direction: column;
   gap: 7px;
-  height: 104px;
-  left: calc(50.00% + 30px);
-  position: absolute;
-  top: 257px;
-  width: 82px;
 }
 
 .frame .vector-3 {
-  height: 74px;
   margin-left: -1px;
-  margin-top: -4px;
   width: 82px;
+  height: 74px;
+  margin-top: -4px;
 }
 
 .frame .text-4 {
+  margin-left: -3px;
+  height: 27px;
+  width: 33px;
   align-self: center;
-  color: #000000;
   font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
-  height: 27px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: -3px;
-  text-align: center;
-  width: 33px;
 }
 
 .frame .descripti {
-  color: #000000;
-  font-family: "Afacad-Bold", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
+  position: absolute;
+  top: 171px;
   left: calc(50.00% - 238px);
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 171px;
 }
 
 .frame .name {
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 90px;
+  left: calc(50.00% - 170px);
+  width: 337px;
+  text-shadow: 1px -2px 0px #000000;
   -webkit-text-stroke: 1.5px #000000;
   background: linear-gradient(
     0deg,
     rgba(81, 118, 166, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+  -webkit-background-clip: text !important;
   background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   font-family: "Big Shoulders Display-Bold", Helvetica;
-  font-size: 64px;
   font-weight: 700;
-  left: calc(50.00% - 170px);
+  color: transparent;
+  font-size: 64px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  text-align: center;
-  text-fill-color: transparent;
-  text-shadow: 1px -2px 0px #000000;
-  top: 90px;
   white-space: nowrap;
-  width: 337px;
 }
 
 .frame .pesan {
-  height: 121px;
-  left: 698px;
   position: absolute;
   top: 230px;
+  left: 698px;
   width: 265px;
+  height: 121px;
 }
 
 .frame .ellipse {
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  width: 254px;
+  height: 72px;
+  border-radius: 127px / 36px;
+  border: 1px solid;
+  border-color: #000000;
+  transform: rotate(-11.54deg);
+  box-shadow: 0px 4px 0px #000000;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(251, 255, 0, 1) 90%
   );
-  border: 1px solid;
-  border-color: #000000;
-  border-radius: 127px / 36px;
-  box-shadow: 0px 4px 0px #000000;
-  height: 72px;
-  left: 5px;
-  position: absolute;
-  top: 25px;
-  transform: rotate(-11.54deg);
-  width: 254px;
 }
 
 .frame .text-5 {
-  -webkit-text-stroke: 1.5px #000000;
-  color: #ffffff;
-  font-family: "Big Shoulders Display-Bold", Helvetica;
-  font-size: 64px;
-  font-weight: 700;
+  position: absolute;
+  top: 21px;
   left: calc(50.00% - 124px);
+  width: 243px;
+  text-shadow: 1px -2px 0px #000000;
+  -webkit-text-stroke: 1.5px #000000;
+  font-family: "Big Shoulders Display-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 64px;
+  white-space: nowrap;
+  font-weight: 700;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  text-align: center;
-  text-shadow: 1px -2px 0px #000000;
-  top: 21px;
-  white-space: nowrap;
-  width: 243px;
 }
