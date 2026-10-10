@@ -1,0 +1,149 @@
+import { useState } from "react";
+import rectangle from "./rectangle.png";
+import union from "./union.svg";
+import vector1 from "./vector-1.svg";
+import vector2 from "./vector-2.svg";
+import vector3 from "./vector-3.svg";
+import vector5 from "./vector-5.svg";
+
+const navigationItems = [
+  {
+    id: "about",
+    label: "About",
+    image: union,
+    secondaryImage: vector5,
+    containerClass:
+      "absolute top-64 left-[calc(50.00%_-_242px)] w-[84px] h-[105px]",
+    imageClass: "absolute -top-1 -left-px w-[84px] h-[76px]",
+    secondaryImageClass: "absolute top-[7px] left-[29px] w-6 h-[46px]",
+    labelClass:
+      "absolute top-[78px] left-[calc(50.00%_-_25px)] [font-family:'Afacad-Bold',Helvetica] font-bold text-black text-xl text-center tracking-[0] leading-[normal]",
+  },
+  {
+    id: "my-work",
+    label: "My Work",
+    image: vector1,
+    containerClass:
+      "absolute top-[258px] left-[calc(50.00%_-_108px)] w-[89px] h-[103px] flex flex-col gap-1.5",
+    imageClass: "-ml-px w-[89.14px] h-[74px] -mt-1",
+    labelClass:
+      "-ml-px h-[27px] w-[70px] self-center [font-family:'Afacad-Bold',Helvetica] text-black text-xl font-bold text-center tracking-[0] leading-[normal]",
+  },
+  {
+    id: "faq",
+    label: "FaQ",
+    image: vector2,
+    containerClass:
+      "absolute top-[257px] left-[calc(50.00%_+_30px)] w-[82px] h-[104px] flex flex-col gap-[7px]",
+    imageClass: "-ml-px w-[82px] h-[74px] -mt-1",
+    labelClass:
+      "ml-[-3px] h-[27px] w-[33px] self-center [font-family:'Afacad-Bold',Helvetica] text-black text-xl font-bold text-center tracking-[0] leading-[normal]",
+  },
+  {
+    id: "contact",
+    label: "Contact",
+    image: vector3,
+    containerClass:
+      "absolute top-64 left-[calc(50.00%_+_160px)] w-20 h-[105px] flex flex-col gap-1.5",
+    imageClass: "-ml-px w-20 h-[76px] -mt-1",
+    labelClass:
+      "ml-[-3px] h-[27px] w-[63px] self-center [font-family:'Afacad-Bold',Helvetica] text-black text-xl font-bold text-center tracking-[0] leading-[normal]",
+  },
+];
+
+export const DasBurd = () => {
+  const [selectedItem, setSelectedItem] = useState("about");
+
+  return (
+    <main className="bg-white overflow-hidden w-full min-w-[680px] min-h-[1080px] relative">
+      <img
+        className="absolute top-[629px] left-0 w-[680px] h-[451px]"
+        alt=""
+        aria-hidden="true"
+        src={rectangle}
+      />
+      <div className="left-[calc(50.00%_-_382px)] w-[764px] h-[629px] bg-[linear-gradient(180deg,rgba(104,191,253,1)_0%,rgba(255,255,255,1)_35%)] absolute top-0" />
+      <section
+        aria-labelledby="more-heading"
+        className="absolute top-[409px] left-14 w-[567px] h-[395px] bg-white rounded-[10px] overflow-hidden border-[3px] border-solid border-[#5175a5]"
+      >
+        <div className="left-0 w-[567px] h-[65px] bg-[#5175a5] absolute top-0" />
+        <h2
+          id="more-heading"
+          className="absolute top-[18px] left-[calc(50.00%_-_260px)] [font-family:'Pixelify_Sans-Bold',Helvetica] font-bold text-white text-2xl tracking-[0] leading-[normal]"
+        >
+          More
+        </h2>
+        <nav aria-label="Portfolio navigation">
+          {navigationItems.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              aria-label={item.label}
+              aria-current={selectedItem === item.id ? "page" : undefined}
+              onClick={() => setSelectedItem(item.id)}
+              className={`${item.containerClass} cursor-pointer`}
+            >
+              <img
+                className={item.imageClass}
+                alt=""
+                aria-hidden="true"
+                src={item.image}
+              />
+              {item.secondaryImage ? (
+                <img
+                  className={item.secondaryImageClass}
+                  alt=""
+                  aria-hidden="true"
+                  src={item.secondaryImage}
+                />
+              ) : null}
+
+              <span className={item.labelClass}>{item.label}</span>
+            </button>
+          ))}
+        </nav>
+        <p className="absolute top-[171px] left-[calc(50.00%_-_238px)] [font-family:'Afacad-Bold',Helvetica] font-bold text-black text-xl text-center tracking-[0] leading-[normal]">
+          Grapich Designer, Illustrator, Video &amp; Photo Editor, Developer
+        </p>
+        <h1 className="absolute top-[90px] left-[calc(50.00%_-_170px)] w-[337px] [text-shadow:1px_-2px_0px_#000000] [-webkit-text-stroke:1.5px_#000000] bg-[linear-gradient(0deg,rgba(81,118,166,1)_0%,rgba(255,255,255,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Big_Shoulders_Display-Bold',Helvetica] font-bold text-transparent text-[64px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+          Hi! i&apos;m Kasyh
+        </h1>
+      </section>
+      <section
+        aria-labelledby="what-i-do-heading"
+        className="absolute top-[226px] left-[360px] w-[263px] h-[65px] bg-white rounded-[10px] overflow-hidden border-[3px] border-solid border-[#51a58a]"
+      >
+        <div className="bg-[#51a58a] absolute top-0 left-0 w-[567px] h-[65px]" />
+        <h2
+          id="what-i-do-heading"
+          className="absolute top-[18px] left-[calc(50.00%_-_56px)] [font-family:'Pixelify_Sans-Bold',Helvetica] font-bold text-white text-2xl tracking-[0] leading-[normal]"
+        >
+          what i do:
+        </h2>
+      </section>
+      <section
+        aria-labelledby="what-i-wont-do-heading"
+        className="absolute top-[319px] left-[360px] w-[263px] h-[65px] bg-white rounded-[10px] overflow-hidden border-[3px] border-solid border-[#a55151]"
+      >
+        <div className="bg-[#a55151] absolute top-0 left-0 w-[567px] h-[65px]" />
+        <h2
+          id="what-i-wont-do-heading"
+          className="absolute top-[18px] left-[calc(50.00%_-_94px)] [font-family:'Pixelify_Sans-Bold',Helvetica] font-bold text-white text-2xl tracking-[0] leading-[normal]"
+        >
+          what i won&apos;t do:
+        </h2>
+      </section>
+      <button
+        type="button"
+        aria-label="Place an order"
+        className="absolute top-[273px] left-[69px] w-[265px] h-[121px] cursor-pointer"
+      >
+        <span className="absolute top-[25px] left-[5px] w-[254px] h-[72px] rounded-[127px/36px] border border-solid border-black rotate-[-11.54deg] shadow-[0px_4px_0px_#000000] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(251,255,0,1)_90%)]" />
+        <span className="absolute top-[21px] left-[calc(50.00%_-_124px)] w-[243px] [text-shadow:1px_-2px_0px_#000000] [-webkit-text-stroke:1.5px_#000000] [font-family:'Big_Shoulders_Display-Bold',Helvetica] text-white text-[64px] whitespace-nowrap font-bold text-center tracking-[0] leading-[normal]">
+          ORDER HERE
+        </span>
+      </button>
+    </main>
+  );
+};
