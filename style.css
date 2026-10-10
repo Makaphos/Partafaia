@@ -1,1 +1,346 @@
+.das-burd {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 680px;
+  min-height: 1080px;
+  position: relative;
+}
 
+.das-burd .rectangle {
+  position: absolute;
+  top: 629px;
+  left: 0;
+  width: 680px;
+  height: 451px;
+}
+
+.das-burd .div {
+  left: calc(50.00% - 382px);
+  width: 764px;
+  height: 629px;
+  background: linear-gradient(
+    180deg,
+    rgba(104, 191, 253, 1) 0%,
+    rgba(255, 255, 255, 1) 35%
+  );
+  position: absolute;
+  top: 0;
+}
+
+.das-burd .information {
+  position: absolute;
+  top: 409px;
+  left: 56px;
+  width: 567px;
+  height: 395px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #5175a5;
+}
+
+.das-burd .rectangle-2 {
+  left: 0;
+  width: 567px;
+  height: 65px;
+  background-color: #5175a5;
+  position: absolute;
+  top: 0;
+}
+
+.das-burd .text-wrapper {
+  position: absolute;
+  top: 18px;
+  left: calc(50.00% - 260px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .about {
+  position: absolute;
+  top: 256px;
+  left: calc(50.00% - 242px);
+  width: 84px;
+  height: 105px;
+}
+
+.das-burd .text {
+  position: absolute;
+  top: 78px;
+  left: calc(50.00% - 25px);
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .union {
+  position: absolute;
+  top: -4px;
+  left: -1px;
+  width: 84px;
+  height: 76px;
+}
+
+.das-burd .vector {
+  position: absolute;
+  top: 7px;
+  left: 29px;
+  width: 24px;
+  height: 46px;
+}
+
+.das-burd .contact {
+  position: absolute;
+  top: 256px;
+  left: calc(50.00% + 160px);
+  width: 80px;
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.das-burd .img {
+  margin-left: -1px;
+  width: 80px;
+  height: 76px;
+  margin-top: -4px;
+}
+
+.das-burd .text-2 {
+  margin-left: -3px;
+  height: 27px;
+  width: 63px;
+  align-self: center;
+  font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .my {
+  position: absolute;
+  top: 258px;
+  left: calc(50.00% - 108px);
+  width: 89px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.das-burd .vector-2 {
+  margin-left: -1px;
+  width: 89.14px;
+  height: 74px;
+  margin-top: -4px;
+}
+
+.das-burd .text-3 {
+  margin-left: -1px;
+  height: 27px;
+  width: 70px;
+  align-self: center;
+  font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .faq {
+  position: absolute;
+  top: 257px;
+  left: calc(50.00% + 30px);
+  width: 82px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.das-burd .vector-3 {
+  margin-left: -1px;
+  width: 82px;
+  height: 74px;
+  margin-top: -4px;
+}
+
+.das-burd .text-4 {
+  margin-left: -3px;
+  height: 27px;
+  width: 33px;
+  align-self: center;
+  font-family: "Afacad-Bold", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .descripti {
+  position: absolute;
+  top: 171px;
+  left: calc(50.00% - 238px);
+  font-family: "Afacad-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .name {
+  position: absolute;
+  top: 90px;
+  left: calc(50.00% - 170px);
+  width: 337px;
+  text-shadow: 1px -2px 0px #000000;
+  -webkit-text-stroke: 1.5px #000000;
+  background: linear-gradient(
+    0deg,
+    rgba(81, 118, 166, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Big Shoulders Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.das-burd .yes {
+  position: absolute;
+  top: 226px;
+  left: 360px;
+  width: 263px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #51a58a;
+}
+
+.das-burd .rectangle-3 {
+  background-color: #51a58a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 567px;
+  height: 65px;
+}
+
+.das-burd .text-wrapper-2 {
+  position: absolute;
+  top: 18px;
+  left: calc(50.00% - 56px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .wont {
+  position: absolute;
+  top: 319px;
+  left: 360px;
+  width: 263px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: #a55151;
+}
+
+.das-burd .rectangle-4 {
+  background-color: #a55151;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 567px;
+  height: 65px;
+}
+
+.das-burd .text-wrapper-3 {
+  position: absolute;
+  top: 18px;
+  left: calc(50.00% - 94px);
+  font-family: "Pixelify Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.das-burd .pesan {
+  position: absolute;
+  top: 273px;
+  left: 69px;
+  width: 265px;
+  height: 121px;
+}
+
+.das-burd .ellipse {
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  width: 254px;
+  height: 72px;
+  border-radius: 127px / 36px;
+  border: 1px solid;
+  border-color: #000000;
+  transform: rotate(-11.54deg);
+  box-shadow: 0px 4px 0px #000000;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(251, 255, 0, 1) 90%
+  );
+}
+
+.das-burd .text-5 {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 124px);
+  width: 243px;
+  text-shadow: 1px -2px 0px #000000;
+  -webkit-text-stroke: 1.5px #000000;
+  font-family: "Big Shoulders Display-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 64px;
+  white-space: nowrap;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
